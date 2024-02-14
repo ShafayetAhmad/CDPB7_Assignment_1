@@ -1,0 +1,66 @@
+body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  padding: 7px 30px 10px 10px;
+  margin: 12px 0px;
+  border: 1px solid black;
+}
+
+.nav-links {
+  display: inline-block;
+}
+
+.nav-link-list {
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.resume-btn,
+.hire-btn {
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link-list li {
+  margin-right: 20px;
+}
+
+.banner-section {
+  height: 120vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 500;
+  display: block;
+}
+
+.banner-slogan {
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
