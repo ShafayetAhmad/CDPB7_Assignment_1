@@ -65,12 +65,13 @@
 }
 
 .about-container,
-.experience-container {
+.projects-container {
   background-color: #f2f2f2;
 }
 
 .about,
-.experience {
+.experience,
+.projects {
   width: 1200px;
   padding: 150px 0px;
   padding-top: 100px;
@@ -97,7 +98,7 @@
   background-color: black;
 }
 
-.section-title-text {
+.section-title-text-gray {
   font-size: 3rem;
   font-weight: 100;
   position: absolute;
@@ -105,6 +106,17 @@
   left: 50%;
   transform: translate(-50%, -100%);
   background-color: #f2f2f2;
+  padding: 0 10px;
+}
+
+.section-title-text-white {
+  font-size: 3rem;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background-color: #ffffff;
   padding: 0 10px;
 }
 
@@ -198,4 +210,88 @@
 
 .job-details2 li {
   margin-bottom: 20px;
+}
+
+.single-project-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.project-image {
+  flex: 1 1 0%;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 300px;
+  margin-right: 30px;
+}
+
+.project-details {
+  flex: 1 1 0%;
+}
+
+.project-details h4 {
+  font-size: 36px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.project-details p {
+  font-size: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+.gh-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.link-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.project-image2 {
+  flex: 1 1 0%;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 300px;
+  margin-left: 30px;
+}
+
+.project-details2 {
+  flex: 1 1 0%;
+  text-align: right;
+}
+
+.project-details2 h4 {
+  font-size: 36px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.project-details2 p {
+  font-size: 20px;
+}
+
+.project-links2 {
+  display: flex;
+  justify-content: end;
+}
+.project-links2 {
+  display: flex;
+  gap: 20px;
+}
+
+.gh-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.link-logo {
+  width: 32px;
+  height: 32px;
 }
