@@ -54,7 +54,7 @@ li a:hover {
 }
 
 .banner-section {
-  height: 120vh;
+  padding: 300px 0px;
   display: flex;
   flex-direction: column;
 }
