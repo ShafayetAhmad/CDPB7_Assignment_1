@@ -295,3 +295,58 @@
   width: 32px;
   height: 32px;
 }
+
+.other-project {
+  margin-top: 100px;
+}
+
+.other-project-container {
+  margin-top: 200px;
+}
+
+.single-other-project-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.other-project-image {
+  flex: 1 1 0%;
+  background-color: #c4c4c4;
+  width: 100px;
+  height: 150px;
+  margin-right: 15px;
+}
+
+.other-project-details {
+  flex: 2 1 0%;
+}
+
+.other-project-details h4 {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.other-project-details p {
+  font-size: 14px;
+}
+
+.other-project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.other-project-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.other-gh-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.other-link-logo {
+  width: 24px;
+  height: 24px;
+}
