@@ -15,10 +15,26 @@
   display: inline-block;
 }
 
+.hideNavbar {
+  display: none;
+}
+
+.navbar-toggle-btn {
+  display: none;
+}
+
 .nav-link-list {
   list-style-type: none;
   font-size: 1.5rem;
   display: flex;
+}
+
+.visible-on-mobile {
+  display: none;
+}
+
+.visible-on-computer {
+  display: block;
 }
 
 li a {
@@ -376,28 +392,52 @@ li a:hover {
   gap: 20px;
 }
 
-@media only screen and (max-weight: 768px) {
-  .body {
-    max-width: 400px;
-  }
-  .portfolio-navbar.responsive .nav-links {
-    display: block;
-    text-align: center;
+@media only screen and (max-width: 768px) {
+  /* body {
+    visibility: hidden;
+  } */
+
+  .portfolio-navbar {
+    width: 500px;
   }
 
-  .portfolio-navbar.responsive .nav-link-list {
+  .about,
+  .experience,
+  .projects,
+  .contact {
+    width: 500px;
+    padding: 70px 0px;
+    padding-top: 50px;
+    margin: 0px auto;
+  }
+
+  .navbar-toggle-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: relative;
+  }
+
+  .nav-link-list {
     display: flex;
-    margin-top: 10px;
+    position: absolute;
+    flex-direction: column;
   }
 
-  .portfolio-navbar.responsive .nav-link-list li {
-    margin-right: 0;
-    margin-bottom: 10px;
+  .logo-container {
+    margin: 6px 0px;
   }
 
-  .portfolio-navbar.responsive .nav-buttons {
+  .nav-link-list li {
+    margin-right: 10px;
+  }
+
+  .visible-on-mobile {
     display: block;
-    text-align: center;
-    margin-top: 10px;
+  }
+
+  .visible-on-computer {
+    display: none;
   }
 }

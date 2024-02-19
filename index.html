@@ -15,23 +15,29 @@
   </head>
   <body>
     <header class="portfolio-header">
-      <nav class="portfolio-navbar" id="portfolio-navbar">
+      <nav class="portfolio-navbar">
         <div class="logo-container">
           <div class="logo">J</div>
         </div>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
           <ul class="nav-link-list">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <button class="resume-btn visible-on-mobile">Resume</button>
+            <button class="hire-btn visible-on-mobile">Hire Me</button>
           </ul>
         </div>
+        <button class="navbar-toggle-btn" onclick="toggleNavbar()">
+          Toggle Navbar
+        </button>
         <div class="nav-buttons center">
-          <button class="resume-btn">Resume</button>
-          <button class="hire-btn">Hire Me</button>
-          <button class="navbar-toggle-btn" onclick="toggleNavbar()">
-            Toggle Navbar
+          <button class="resume-btn visible-on-mobile visible-on-computer">
+            Resume
+          </button>
+          <button class="hire-btn visible-on-mobile visible-on-computer">
+            Hire Me
           </button>
         </div>
       </nav>
