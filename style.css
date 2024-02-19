@@ -440,4 +440,12 @@ li a:hover {
   .visible-on-computer {
     display: none;
   }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hideNavbar {
+    display: block !important;
+  }
 }
