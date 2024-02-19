@@ -393,19 +393,18 @@ li a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  /* body {
-    visibility: hidden;
-  } */
-
   .portfolio-navbar {
     width: 500px;
   }
 
+  .about-details {
+    flex-direction: column-reverse;
+  }
   .about,
   .experience,
   .projects,
   .contact {
-    width: 500px;
+    width: 100%;
     padding: 70px 0px;
     padding-top: 50px;
     margin: 0px auto;
@@ -423,6 +422,10 @@ li a:hover {
     display: flex;
     position: absolute;
     flex-direction: column;
+    margin-top: 80px;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .logo-container {
@@ -447,5 +450,26 @@ li a:hover {
 
   .hideNavbar {
     display: block !important;
+  }
+
+  .section-title-text-gray {
+    font-size: 2rem;
+  }
+  .section-title-text-white {
+    font-size: 2rem;
+  }
+  .single-other-project-container {
+    flex-direction: column;
+  }
+  .portfolio-navbar {
+    width: 100%;
+  }
+  .portfolio-header {
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .banner-title {
+    text-align: center;
   }
 }

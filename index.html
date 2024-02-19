@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>Simple Portfolio</title>
   </head>
   <body>
@@ -29,9 +30,7 @@
             <button class="hire-btn visible-on-mobile">Hire Me</button>
           </ul>
         </div>
-        <button class="navbar-toggle-btn" onclick="toggleNavbar()">
-          Toggle Navbar
-        </button>
+
         <div class="nav-buttons center">
           <button class="resume-btn visible-on-mobile visible-on-computer">
             Resume
@@ -40,6 +39,9 @@
             Hire Me
           </button>
         </div>
+        <button class="navbar-toggle-btn" onclick="toggleNavbar()">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
       </nav>
     </header>
     <section class="banner-section center">
@@ -59,7 +61,7 @@
         </div>
         <div class="about-details">
           <div class="about-text">
-            <p class="about-text-content">
+            <p class="about-text-content" id="about-text-content">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
               aliquid porro minus. Eveniet, cupiditate. Pariatur, ipsum ab?
               Beatae quaerat magnam dolores minus aliquam. Dolore fugiat qui
@@ -84,7 +86,9 @@
               iusto soluta debitis, eveniet pariatur officia error.
             </p>
           </div>
-          <div class="about-img"></div>
+          <div class="about-img-container center">
+            <div class="about-img"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -315,7 +319,7 @@
           <h2 class="section-title-text-white">Contact</h2>
         </div>
         <div class="contact-content-container">
-          <p class="contact-content center">
+          <p class="contact-content center" id="contact-content">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
             accusantium impedit nam voluptatibus iusto, nobis odit deserunt
             doloremque labore dignissimos doloribus dicta nisi, expedita iure
@@ -340,4 +344,5 @@
     </footer>
   </body>
   <script src="./script.js"></script>
+  <script src="./dummy-text.js"></script>
 </html>
