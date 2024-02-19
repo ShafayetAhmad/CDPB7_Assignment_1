@@ -262,6 +262,7 @@ li a:hover {
 .linkedin-logo {
   width: 32px;
   height: 32px;
+  margin-top: 10px;
 }
 
 .project-image2 {
@@ -333,7 +334,7 @@ li a:hover {
 
 .other-project-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .other-project-flex {
@@ -373,4 +374,30 @@ li a:hover {
   margin: 40px 0px;
   display: flex;
   gap: 20px;
+}
+
+@media only screen and (max-weight: 768px) {
+  .body {
+    max-width: 400px;
+  }
+  .portfolio-navbar.responsive .nav-links {
+    display: block;
+    text-align: center;
+  }
+
+  .portfolio-navbar.responsive .nav-link-list {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .portfolio-navbar.responsive .nav-link-list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-navbar.responsive .nav-buttons {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
 }
