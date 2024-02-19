@@ -392,6 +392,22 @@ li a:hover {
   gap: 20px;
 }
 
+.goToBottomBtn,
+.goToTopBtn {
+  all: unset;
+  padding-bottom: 20px;
+}
+
+.goToBottomBtn:hover {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.goToTopBtn:hover {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .portfolio-navbar {
     width: 500px;
