@@ -4,9 +4,9 @@ const toggleNavbar = () => {
 };
 
 const handleGoToBottom = () => {
-  window.location.href = "/#copyright";
+  window.location.href = "#copyright";
 };
 
 const handleGoToTop = () => {
-  window.location.href = "/#nav-links";
+  window.location.href = "#nav-links";
 };
